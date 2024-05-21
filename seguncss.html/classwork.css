@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+.slidercon{
+    height: max-content;
+}
+.slider{
+    height: max-content;
+    width: 800%;
+    display: inline-flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.slide{
+    
+    position: relative;
+    width: 13%;
+    height: 600px;
+    animation: sloop 10s  infinite;
+}
+@keyframes sloop {
+    0%{
+        right: 0;
+    }
+      13%{
+        right: 0%;
+      }
+      14%{
+        right: 13%;
+      }
+      26%{
+        right: 13%;
+      }
+      27%{
+        right: 26%;
+      }
+      39%{
+        right: 26%;
+      }
+      40%{
+        right: 39%;
+      }
+      52%{
+        right: 39%;
+      }
+      53%{
+        right: 52%;
+      }
+      
+      
+      
+    
+    
+}
+    
+.slide img{
+    width: 100%;
+    height: 100%;
+}
